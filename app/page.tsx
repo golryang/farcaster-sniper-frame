@@ -1,36 +1,30 @@
 import { getFrameMetadata } from '@coinbase/onchainkit/frame';
 import type { Metadata } from 'next';
 import { NEXT_PUBLIC_URL } from './config';
+import {main_img} from "./constant";
 
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Let's Funcking Mint Gooooo",
-    },
-    {
-      action: 'tx',
-      label: 'Sen yo mony men',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      action: 'post',
+      label: 'Start Sniper',
+      target: `${NEXT_PUBLIC_URL}/api/start-sniper`,
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/sunset flower.webp`,
+    src: main_img,
     aspectRatio: '1:1',
   },
-  input: {
-    text: 'Tell me a story',
-  },
-  postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+  postUrl: `${NEXT_PUBLIC_URL}`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'Sniper Frame',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'Sniper Frame',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    images: [main_img],
   },
   other: {
     ...frameMetadata,
@@ -39,8 +33,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <>
-      <h1>zizzamia.xyz</h1>
-    </>
+      <>
+        <h1>Please go back and press Start Sniper</h1>
+      </>
   );
 }
