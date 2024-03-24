@@ -1,7 +1,7 @@
 import {FrameRequest, getFrameHtmlResponse, getFrameMessage} from '@coinbase/onchainkit/frame';
 import { NextRequest, NextResponse } from 'next/server';
 import { NEXT_PUBLIC_URL } from '../../config';
-import {api_endpoint, main_img} from "../../constant";
+import {api_endpoint, main_ready_to_snipe_img} from "../../constant";
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
 
@@ -71,7 +71,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     },
                 ],
                 image: {
-                    src: main_img,
+                    src: main_ready_to_snipe_img,
                     aspectRatio: '1.91:1',
                 },
                 postUrl: `${NEXT_PUBLIC_URL}`,

@@ -1,7 +1,6 @@
 import { getFrameMetadata } from '@coinbase/onchainkit/frame';
 import type { Metadata } from 'next';
 import { NEXT_PUBLIC_URL } from './config';
-import {main_img} from "./constant";
 
 const frameMetadata = getFrameMetadata({
   buttons: [
@@ -12,7 +11,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: main_img,
+    src: `${NEXT_PUBLIC_URL}/main_ready_to_snipe.jpg`,
     aspectRatio: '1:1',
   },
   postUrl: `${NEXT_PUBLIC_URL}`,
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sniper Frame',
     description: 'LFG',
-    images: [main_img],
+    images: [ `${NEXT_PUBLIC_URL}/main_ready_to_snipe.jpg`],
   },
   other: {
     ...frameMetadata,
