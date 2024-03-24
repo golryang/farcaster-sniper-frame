@@ -45,14 +45,14 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     {
                         label: "Go Back",
                         action: "post",
-                        target: '',
+                        target: `${NEXT_PUBLIC_URL}/api/frame`,
                     },
                 ],
                 image: {
                     src: img_url,
                     aspectRatio: '1.91:1',
                 },
-                postUrl: `${NEXT_PUBLIC_URL}`,
+                postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
             }),
         );
 
@@ -71,7 +71,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     src: main_ready_to_snipe_img,
                     aspectRatio: '1.91:1',
                 },
-                postUrl: `${NEXT_PUBLIC_URL}`,
+                postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
             }),
         );
     }

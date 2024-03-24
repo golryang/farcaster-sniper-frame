@@ -40,7 +40,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     src: rug_report_img,
                     aspectRatio: '1.91:1',
                 },
-                postUrl: `${NEXT_PUBLIC_URL}`,
+                postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 
             }),
         );

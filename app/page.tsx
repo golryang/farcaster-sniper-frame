@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     src: `${main_ready_to_snipe_img}`,
     aspectRatio: '1:1',
   },
-  postUrl: `${NEXT_PUBLIC_URL}`,
+  postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
