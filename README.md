@@ -1,4 +1,4 @@
-# MemeCoinSnipeFrame Initiative
+# MemeCoinSnipeFrame Initiative
 
 ## Demo
 Check out the live demo here: [DEMO](https://untitled-farcaster-frame.vercel.app/)
