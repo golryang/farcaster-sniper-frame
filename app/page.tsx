@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
       <>
-        <h1>Please go back and press Start Sniper</h1>
+        <h1>Please go back and press Start Sniper in frame</h1>
       </>
   );
 }
