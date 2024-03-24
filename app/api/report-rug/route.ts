@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         const latestCoinRes = await getLatestCoinRes.json();
         let tokenAddress = latestCoinRes.token_address
 
-        const reportRugRes = await fetch(`${api_endpoint}/api/coin/${tokenAddress}/reportRug`);
+        const reportRugRes = await fetch(`${api_endpoint}/api/coin/${tokenAddress}/report-rug`);
         if (!reportRugRes.ok) {
             // Handle response errors, such as 404 or 500 statuses
             throw new Error('Server responded with a non-200 status');

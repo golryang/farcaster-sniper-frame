@@ -40,12 +40,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     {
                         label: "Rug Report",
                         action: "post",
-                        target: `${NEXT_PUBLIC_URL}/api/reportRug`,
+                        target: `${NEXT_PUBLIC_URL}/api/report-rug`,
                     },
                     {
-                        label: "Back",
+                        label: "Go Back",
                         action: "post",
-                        target: `${NEXT_PUBLIC_URL}`,
+                        target: '',
                     },
                 ],
                 image: {
