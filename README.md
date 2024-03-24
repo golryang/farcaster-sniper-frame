@@ -1,7 +1,9 @@
 # MemeCoinSnipeFrame
 
 ## Demo
+Check out the live frame demo here: [DEMO](https://warpcast.com/~/developers/frames?url=https%3A%2F%2Fmeme-coin-snipe-frame.vercel.app)
 Check out the live demo here: [DEMO](https://meme-coin-snipe-frame.vercel.app)
+
 
 ## Overview
 
