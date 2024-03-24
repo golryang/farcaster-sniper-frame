@@ -1,7 +1,7 @@
 # MemeCoinSnipeFrame
 
 ## Demo
-Check out the live demo here: [DEMO](https://untitled-farcaster-frame.vercel.app/)
+Check out the live demo here: [DEMO](https://meme-coin-snipe-frame.vercel.app)
 
 ## Overview
 
