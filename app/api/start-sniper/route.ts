@@ -35,7 +35,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                     {
                         label: "Uniswap",
                         action: "link",
-                        target: `https://app.uniswap.org/#/swap?outputCurrency=${tokenAddress}`,
+                        target: `https://app.uniswap.org/#/swap?outputCurrency=${tokenAddress}&chain=base`,
                     },
                     {
                         label: "Rug Report",
