@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       action: 'post',
-      label: 'Start Sniper (10m)',
+      label: 'Start Sniper',
       target: `${NEXT_PUBLIC_URL}/api/start-sniper`,
     },
   ],

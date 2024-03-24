@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                         target: `https://dexscreener.com/base/${tokenAddress}`,
                     },
                     {
-                        label: "Buy on Uniswap",
+                        label: "Uniswap",
                         action: "link",
                         target: `https://app.uniswap.org/#/swap?outputCurrency=${tokenAddress}`,
                     },
@@ -43,7 +43,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
                         target: `${NEXT_PUBLIC_URL}/api/reportRug`,
                     },
                     {
-                        label: "Back to main",
+                        label: "Back",
                         action: "post",
                         target: `${NEXT_PUBLIC_URL}`,
                     },
