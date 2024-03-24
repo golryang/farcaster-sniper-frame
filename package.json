@@ -1,5 +1,5 @@
 {
-  "name": "a-frame-in-100-lines",
+  "name": "Farcaster Snipe Frame",
   "version": "0.11.0",
   "scripts": {
     "build": "rm -rf .next && next build",
@@ -9,7 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "https://twitter.com/Zizzamia",
   "license": "MIT",
   "dependencies": {
     "@coinbase/onchainkit": "0.11.0",
