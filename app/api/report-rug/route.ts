@@ -1,7 +1,6 @@
 import {NextRequest, NextResponse} from "next/server";
 import { getFrameHtmlResponse} from "@coinbase/onchainkit/frame";
-import {api_endpoint, rug_report_img} from "../../constant";
-import {NEXT_PUBLIC_URL} from "../../config";
+import {api_endpoint, NEXT_PUBLIC_URL, rug_report_img} from "../../config";
 import {apiResolver} from "next/dist/server/api-utils/node/api-resolver";
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {

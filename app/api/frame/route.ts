@@ -1,7 +1,6 @@
 import {FrameRequest, getFrameMessage, getFrameHtmlResponse, getFrameMetadata} from '@coinbase/onchainkit/frame';
 import { NextRequest, NextResponse } from 'next/server';
-import { NEXT_PUBLIC_URL } from '../../config';
-import {main_ready_to_snipe_img} from "../../constant";
+import {main_ready_to_snipe_img, NEXT_PUBLIC_URL} from '../../config';
 import {Metadata} from "next";
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
